@@ -1,0 +1,35 @@
+import com.opencsv.CSVReaderBuilder
+import com.opencsv.CSVParserBuilder
+import java.io.FileReader
+import scala.jdk.CollectionConverters._
+import breeze.linalg._
+import breeze.stats._
+
+object MainApp {
+    def readAndProcessCSV(filePath: String): Array[Array[Double]] = {
+        val parser = new CSVParserBuilder()
+          .withSeparator(';')
+          .build()
+        val reader = new CSVReaderBuilder(new FileReader(filePath))
+          .withCSVParser(parser)
+          .build()
+        try {
+          val allRows = reader.readAll().asScala.toList
+          val matrix = allRows.tail.map { row =>
+            row.tail.map { value =>
+              value.replace(',', '.').toDouble
+            }.toArray
+          }.toArray
+          matrix
+        } finally {
+          reader.close()
+        }
+    }
+
+    def main(args: Array[String]): Unit = {
+        val filePath = System.getProperty("user.dir")+"/EjemploEstudiantes.csv"   
+        val matrix = readAndProcessCSV(filePath)
+        println("Matriz Original:")
+        matrix.foreach(row => println(row.mkString(", ")))
+    }
+}
