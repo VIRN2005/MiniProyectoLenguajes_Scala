@@ -60,7 +60,7 @@ object MainApp {
     printMatrix(standardizedMatrix)
 
     // Paso 2: Calcular la matriz de correlaciones
-    println("\n>> MATRIZ DE CORRELACIONES <<")
+    println("\n2. >> MATRIZ DE CORRELACIONES <<")
     val correlationMatrix = cov(standardizedMatrix)
     printMatrix(correlationMatrix)
 
@@ -76,14 +76,14 @@ object MainApp {
       eigenvectors(i, sortedIndices(j))
     }
 
-    println("\n>> EIGENVALORES ORDENADOS [MAYOR A MENOR] <<")
+    println("\n3. >> EIGENVALORES ORDENADOS [MAYOR A MENOR] <<")
     println(sortedEigenvalues.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
-    println("\n>> EIGENVECTORES ORDENADOS [MAYOR A MENOR] <<")
+    println("\n   >> EIGENVECTORES ORDENADOS [MAYOR A MENOR] <<")
     printMatrix(sortedEigenvectors)
 
     // Paso 5: Calcular la matriz de componentes principales
-    println("\n>> MATRIZ DE COMPONENTES PRINCIPALES <<")
+    println("\n5. >> MATRIZ DE COMPONENTES PRINCIPALES <<")
     val principalComponents = standardizedMatrix * sortedEigenvectors
     printMatrix(principalComponents)
 
@@ -100,13 +100,13 @@ object MainApp {
     }
     printMatrix(matrixQualityInvdividuals)
 
-    // Paso 7: Calcular la matriz de coordenadas de las variables
-    println("\n>> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
+    // Paso 7: Calcular la matriz de coordenadas de las variables (mxm) ---------------------------------------------------------------------
+    println("\n7. >> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
     val variableCoordinates = sortedEigenvectors.t * standardizedMatrix.t
     printMatrix(variableCoordinates)
 
-    // Paso 8: Calcular la matriz de calidades de las variables
-    println("\n>> MATRIZ DE CALIDADES DE LAS VARIABLES <<")
+    // Paso 8: Calcular la matriz de calidades de las variables (mxm) -----------------------------------------------------------------------
+    println("\n8. >> MATRIZ DE CALIDADES DE LAS VARIABLES <<")
     val qualityVariables = DenseVector(variableCoordinates(*, ::).map(col => math.pow(norm(col), 2)).toArray)
     println(qualityVariables.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
