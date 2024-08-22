@@ -46,7 +46,7 @@ object MainApp {
     printMatrix(DenseMatrix(matrix: _*))
 
     // Paso 1: Centrar y reducir la matriz original de datos
-    println("\n>> MATRIZ ESTANDARIZADA <<")
+    println("\n1.  >> MATRIZ ESTANDARIZADA <<")
     val breezeMatrix = DenseMatrix(matrix: _*)
     val meanVector = mean(breezeMatrix(::, *))
     val stddevVector = stddev(breezeMatrix(::, *))
@@ -60,7 +60,7 @@ object MainApp {
     printMatrix(standardizedMatrix)
 
     // Paso 2: Calcular la matriz de correlaciones
-    println("\n>> MATRIZ DE CORRELACIONES <<")
+    println("\n2. >> MATRIZ DE CORRELACIONES <<")
     val correlationMatrix = cov(standardizedMatrix)
     printMatrix(correlationMatrix)
 
@@ -76,34 +76,34 @@ object MainApp {
       eigenvectors(i, sortedIndices(j))
     }
 
-    println("\n>> EIGENVALORES ORDENADOS [MAYOR A MENOR] <<")
+    println("\n3. >> EIGENVALORES ORDENADOS [MAYOR A MENOR] <<")
     println(sortedEigenvalues.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
-    println("\n>> EIGENVECTORES ORDENADOS [MAYOR A MENOR] <<")
+    println("\n   >> EIGENVECTORES ORDENADOS [MAYOR A MENOR] <<")
     printMatrix(sortedEigenvectors)
 
     // Paso 5: Calcular la matriz de componentes principales
-    println("\n>> MATRIZ DE COMPONENTES PRINCIPALES <<")
+    println("\n5. >> MATRIZ DE COMPONENTES PRINCIPALES <<")
     val principalComponents = standardizedMatrix * sortedEigenvectors
     printMatrix(principalComponents)
 
-    // Paso 6: Calcular la matriz de calidades de individuos
-    println("\n>> MATRIZ DE CALIDADES DE INDIVIDUOS <<")
+    // Paso 6: Calcular la matriz de calidades de individuos (nxm) --------------------------------------------------------------------------
+    println("\n6. >> MATRIZ DE CALIDADES DE INDIVIDUOS <<")
     val qualityIndividuals = DenseVector(principalComponents(*, ::).map(row => math.pow(norm(row), 2)).toArray)
     println(qualityIndividuals.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
-    // Paso 7: Calcular la matriz de coordenadas de las variables
-    println("\n>> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
+    // Paso 7: Calcular la matriz de coordenadas de las variables (mxm) ---------------------------------------------------------------------
+    println("\n7. >> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
     val variableCoordinates = sortedEigenvectors.t * standardizedMatrix.t
     printMatrix(variableCoordinates)
 
-    // Paso 8: Calcular la matriz de calidades de las variables
-    println("\n>> MATRIZ DE CALIDADES DE LAS VARIABLES <<")
+    // Paso 8: Calcular la matriz de calidades de las variables (mxm) -----------------------------------------------------------------------
+    println("\n8. >> MATRIZ DE CALIDADES DE LAS VARIABLES <<")
     val qualityVariables = DenseVector(variableCoordinates(*, ::).map(col => math.pow(norm(col), 2)).toArray)
     println(qualityVariables.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
     // Paso 9: Calcular el vector de inercias de los ejes
-    println("\n>> VECTOR DE INERCIAS DE LOS EJES <<")
+    println("\n9. >> VECTOR DE INERCIAS DE LOS EJES <<")
     val inertiaVector = DenseVector(sortedEigenvalues.map(el => math.pow(el, 2)).toArray)
     println(inertiaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
