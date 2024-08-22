@@ -43,11 +43,11 @@ object MainApp {
     val filePath = System.getProperty("user.dir") + "/EjemploEstudiantes.csv"
     val matrix = readAndProcessCSV(filePath)
     println(">> MATRIZ <<")
-    printMatrix(DenseMatrix(matrix: _*))
+    printMatrix(DenseMatrix(matrix*))
 
     // Paso 1: Centrar y reducir la matriz original de datos
     println("\n>> MATRIZ ESTANDARIZADA <<")
-    val breezeMatrix = DenseMatrix(matrix: _*)
+    val breezeMatrix = DenseMatrix(matrix*)
     val meanVector = mean(breezeMatrix(::, *))
     val stddevVector = stddev(breezeMatrix(::, *))
     val standardizedMatrix = DenseMatrix.zeros[Double](breezeMatrix.rows, breezeMatrix.cols)
@@ -89,8 +89,16 @@ object MainApp {
 
     // Paso 6: Calcular la matriz de calidades de individuos
     println("\n>> MATRIZ DE CALIDADES DE INDIVIDUOS <<")
-    val qualityIndividuals = DenseVector(principalComponents(*, ::).map(row => math.pow(norm(row), 2)).toArray)
-    println(qualityIndividuals.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
+    val matrixComponentsSquared = principalComponents.map(x => x * x)
+    val matrixStandardizedSquared = standardizedMatrix.map(x => x * x)
+    val matrixQualityInvdividuals = DenseMatrix.zeros[Double](breezeMatrix.rows, breezeMatrix.cols)
+    for (i <- 0 until breezeMatrix.rows) {
+      val sumComponents = sum(matrixStandardizedSquared(i, ::))
+      for (r <- 0 until breezeMatrix.cols) {
+        matrixQualityInvdividuals(i, r) = matrixComponentsSquared(i, r) / sumComponents
+      }
+    }
+    printMatrix(matrixQualityInvdividuals)
 
     // Paso 7: Calcular la matriz de coordenadas de las variables
     println("\n>> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
@@ -104,7 +112,10 @@ object MainApp {
 
     // Paso 9: Calcular el vector de inercias de los ejes
     println("\n>> VECTOR DE INERCIAS DE LOS EJES <<")
-    val inertiaVector = DenseVector(sortedEigenvalues.map(el => math.pow(el, 2)).toArray)
+    val inertiaVector = DenseVector.zeros[Double](breezeMatrix.cols)
+    for(i <- 0 until breezeMatrix.cols){
+      inertiaVector(i) = (100*sortedEigenvalues(i))/breezeMatrix.cols
+    }
     println(inertiaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
     // Paso 10: Graficar

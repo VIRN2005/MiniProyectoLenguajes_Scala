@@ -999,3 +999,1414 @@ ADVERTENCIA: Unmatched cancel notification for request id 2549
 2024.08.21 17:42:46 INFO  Shut down connection with build server.
 2024.08.21 17:42:46 INFO  Shut down connection with build server.
 2024.08.21 17:42:46 INFO  Exiting server
+2024.08.21 17:46:55 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\DELL\Documents\ACP_SCALA' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@104899b3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5abc7795]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@104899b3]
+2024.08.21 17:46:55 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.21 17:46:57 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.21 17:46:57 INFO  Attempting to connect to the build server...
+2024.08.21 17:46:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.21 17:46:57 INFO  Attempting to connect to the build server...
+2024.08.21 17:46:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.21 17:46:57 INFO  time: Connected to build server in 0.61s
+2024.08.21 17:46:57 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.21 17:46:58 INFO  time: Imported build in 0.16s
+2024.08.21 17:46:59 INFO  running doctor check
+2024.08.21 17:46:59 INFO  java targets: acp_scala-test, acp_scala, acp_scala-build
+ago. 21, 2024 5:46:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5
+ago. 21, 2024 5:46:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 6
+ago. 21, 2024 5:47:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 12
+ago. 21, 2024 5:47:02 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 33
+2024.08.21 17:47:07 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.21 17:47:11 INFO  time: indexed workspace in 11s
+2024.08.21 17:47:14 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:47:14 INFO  time: compiled acp_scala in 0.64s
+2024.08.21 17:47:29 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:47:29 INFO  time: compiled acp_scala in 0.44s
+ago. 21, 2024 5:48:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 130
+2024.08.21 17:48:40 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:48:40 INFO  time: compiled acp_scala in 0.35s
+2024.08.21 17:50:05 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:50:05 INFO  time: compiled acp_scala in 0.36s
+2024.08.21 17:51:09 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:51:09 INFO  time: compiled acp_scala in 0.35s
+2024.08.21 17:51:24 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:51:24 INFO  time: compiled acp_scala in 0.85s
+2024.08.21 17:51:48 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:51:48 INFO  time: compiled acp_scala in 0.3s
+2024.08.21 17:52:46 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:52:46 INFO  time: compiled acp_scala in 0.69s
+2024.08.21 17:54:10 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:54:10 INFO  time: compiled acp_scala in 0.96s
+2024.08.21 17:54:56 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:54:56 INFO  time: compiled acp_scala in 0.91s
+2024.08.21 17:55:10 INFO  compiling acp_scala (1 scala source)
+2024.08.21 17:55:10 INFO  time: compiled acp_scala in 0.76s
+ago. 21, 2024 6:00:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1075
+2024.08.21 18:00:24 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:00:28 INFO  time: compiled acp_scala in 3.9s
+2024.08.21 18:00:30 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:00:33 INFO  time: compiled acp_scala in 2.91s
+ago. 21, 2024 6:01:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1147
+2024.08.21 18:01:23 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:01:26 INFO  time: compiled acp_scala in 2.72s
+2024.08.21 18:02:32 INFO  compiling acp_scala (1 scala source)
+ago. 21, 2024 6:02:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1484
+2024.08.21 18:02:38 INFO  time: compiled acp_scala in 6.07s
+2024.08.21 18:02:38 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:02:43 INFO  time: compiled acp_scala in 4.39s
+2024.08.21 18:03:47 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:03:50 INFO  time: compiled acp_scala in 2.81s
+2024.08.21 18:04:39 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:04:43 INFO  time: compiled acp_scala in 3.68s
+2024.08.21 18:04:54 INFO  compiling acp_scala (1 scala source)
+ago. 21, 2024 6:04:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1605
+2024.08.21 18:04:57 INFO  time: compiled acp_scala in 3.08s
+2024.08.21 18:06:02 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:06:05 INFO  time: compiled acp_scala in 2.97s
+ago. 21, 2024 6:06:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1694
+ago. 21, 2024 6:06:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1698
+2024.08.21 18:06:43 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:06:45 INFO  time: compiled acp_scala in 2.9s
+2024.08.21 18:08:18 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:08:20 INFO  time: compiled acp_scala in 2.53s
+2024.08.21 18:09:21 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:09:24 INFO  time: compiled acp_scala in 2.7s
+2024.08.21 18:09:24 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:09:27 INFO  time: compiled acp_scala in 3.41s
+ago. 21, 2024 6:09:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2000
+2024.08.21 18:09:36 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:09:39 INFO  time: compiled acp_scala in 2.99s
+2024.08.21 18:10:01 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:10:05 INFO  time: compiled acp_scala in 3.49s
+2024.08.21 18:10:25 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:10:27 INFO  time: compiled acp_scala in 2.11s
+2024.08.21 18:10:39 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:10:41 INFO  time: compiled acp_scala in 2.18s
+ago. 21, 2024 6:10:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2148
+ago. 21, 2024 6:10:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2215
+2024.08.21 18:11:08 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:11:11 INFO  time: compiled acp_scala in 3.28s
+2024.08.21 18:11:13 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:11:15 INFO  time: compiled acp_scala in 1.66s
+ago. 21, 2024 6:11:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2272
+2024.08.21 18:11:31 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:11:33 INFO  time: compiled acp_scala in 2.16s
+2024.08.21 18:11:43 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:11:46 INFO  time: compiled acp_scala in 3.68s
+2024.08.21 18:11:53 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:11:56 INFO  time: compiled acp_scala in 3.05s
+2024.08.21 18:12:52 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:12:55 INFO  time: compiled acp_scala in 3.8s
+2024.08.21 18:14:03 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:14:05 INFO  time: compiled acp_scala in 1.84s
+2024.08.21 18:14:28 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:14:32 INFO  time: compiled acp_scala in 4.03s
+2024.08.21 18:14:42 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:14:45 INFO  time: compiled acp_scala in 3.52s
+2024.08.21 18:17:59 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:18:02 INFO  time: compiled acp_scala in 2.98s
+2024.08.21 18:19:29 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:19:31 INFO  time: compiled acp_scala in 2.07s
+ago. 21, 2024 6:19:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2804
+2024.08.21 18:20:28 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:20:30 INFO  time: compiled acp_scala in 1.95s
+2024.08.21 18:20:35 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:20:37 INFO  time: compiled acp_scala in 1.98s
+ago. 21, 2024 6:20:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2865
+ago. 21, 2024 6:26:21 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3068
+ago. 21, 2024 6:29:33 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+ago. 21, 2024 6:30:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3164
+2024.08.21 18:32:22 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:32:24 INFO  time: compiled acp_scala in 2.35s
+2024.08.21 18:32:29 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:32:31 INFO  time: compiled acp_scala in 2.35s
+ago. 21, 2024 6:32:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3336
+ago. 21, 2024 6:33:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3560
+2024.08.21 18:33:57 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:33:59 INFO  time: compiled acp_scala in 2.49s
+2024.08.21 18:40:24 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:40:27 INFO  time: compiled acp_scala in 2.95s
+2024.08.21 18:41:25 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:41:28 INFO  time: compiled acp_scala in 2.77s
+ago. 21, 2024 6:42:40 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3795
+2024.08.21 18:42:50 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:42:53 INFO  time: compiled acp_scala in 3.6s
+2024.08.21 18:44:39 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:44:43 INFO  time: compiled acp_scala in 3.38s
+2024.08.21 18:46:34 INFO  compiling acp_scala (1 scala source)
+2024.08.21 18:46:37 INFO  time: compiled acp_scala in 2.68s
+ago. 21, 2024 7:06:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4722
+ago. 21, 2024 7:06:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4749
+2024.08.21 19:06:58 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:07:00 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2024.08.21 19:07:00 INFO  time: compiled acp_scala in 2.92s
+2024.08.21 19:07:18 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:07:21 INFO  time: compiled acp_scala in 2.94s
+ago. 21, 2024 7:11:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5055
+2024.08.21 19:11:42 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:11:45 INFO  time: compiled acp_scala in 3.04s
+2024.08.21 19:12:07 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:12:10 INFO  time: compiled acp_scala in 3.01s
+2024.08.21 19:12:21 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:12:24 INFO  time: compiled acp_scala in 3.13s
+2024.08.21 19:12:34 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:12:36 INFO  time: compiled acp_scala in 2.54s
+2024.08.21 19:12:50 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:12:53 INFO  time: compiled acp_scala in 2.85s
+2024.08.21 19:13:27 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:13:31 INFO  time: compiled acp_scala in 3.03s
+2024.08.21 19:13:41 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:13:44 INFO  time: compiled acp_scala in 2.84s
+2024.08.21 19:13:52 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:13:55 INFO  time: compiled acp_scala in 2.89s
+ago. 21, 2024 7:13:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5438
+2024.08.21 19:14:54 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:14:57 INFO  time: compiled acp_scala in 2.87s
+ago. 21, 2024 7:19:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5677
+2024.08.21 19:19:34 INFO  compiling acp_scala (1 scala source)
+ago. 21, 2024 7:19:36 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5694
+2024.08.21 19:19:37 INFO  time: compiled acp_scala in 2.71s
+2024.08.21 19:19:42 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:19:44 INFO  time: compiled acp_scala in 2.58s
+2024.08.21 19:20:27 INFO  compiling acp_scala (1 scala source)
+2024.08.21 19:20:29 INFO  time: compiled acp_scala in 2.75s
+ago. 21, 2024 8:00:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 6498
+ago. 21, 2024 8:00:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 6500
+2024.08.21 20:01:20 INFO  compiling acp_scala (1 scala source)
+2024.08.21 20:01:22 INFO  time: compiled acp_scala in 2.74s
+2024.08.21 20:04:52 INFO  Shutting down server
+2024.08.21 20:04:52 INFO  shutting down Metals
+2024.08.21 20:04:52 INFO  Shut down connection with build server.
+2024.08.21 20:04:52 INFO  Shut down connection with build server.
+2024.08.21 20:04:52 INFO  Exiting server
+2024.08.21 22:21:09 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\DELL\Documents\ACP_SCALA' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@104899b3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5abc7795]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@104899b3]
+2024.08.21 22:21:10 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.21 22:21:13 INFO  Attempting to connect to the build server...
+2024.08.21 22:21:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.21 22:21:14 INFO  Attempting to connect to the build server...
+2024.08.21 22:21:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.21 22:21:14 INFO  time: Connected to build server in 0.5s
+2024.08.21 22:21:14 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.21 22:21:14 INFO  time: Imported build in 0.17s
+2024.08.21 22:21:14 INFO  running doctor check
+2024.08.21 22:21:14 INFO  java targets: acp_scala-test, acp_scala, acp_scala-build
+ago. 21, 2024 10:21:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 9
+ago. 21, 2024 10:21:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 14
+2024.08.21 22:21:24 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.21 22:21:29 INFO  time: indexed workspace in 14s
+2024.08.21 22:21:37 INFO  time: code lens generation in 6.93s
+ago. 21, 2024 10:24:18 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+ago. 21, 2024 10:24:36 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 39
+ago. 21, 2024 10:24:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 42
+ago. 21, 2024 10:26:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 54
+2024.08.21 22:28:15 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.21 22:28:15 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.21 22:28:18 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.21 22:28:18 INFO  time: code lens generation in 2.92s
+2024.08.21 22:29:03 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.21 23:15:15 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-aqv4-YyLRcqcni-P98O-ug== does not exist
+2024.08.21 23:15:16 INFO  Shutting down server
+2024.08.21 23:15:16 INFO  shutting down Metals
+2024.08.21 23:15:16 INFO  Shut down connection with build server.
+2024.08.21 23:15:16 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:177)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy11.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:177)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy11.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:177)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.21 23:15:16 INFO  Exiting server
+2024.08.22 00:03:03 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\DELL\Documents\ACP_SCALA' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@104899b3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5abc7795]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@104899b3]
+2024.08.22 00:03:03 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.22 00:03:05 INFO  Attempting to connect to the build server...
+2024.08.22 00:03:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 00:03:05 INFO  Attempting to connect to the build server...
+2024.08.22 00:03:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 00:03:05 INFO  time: Connected to build server in 0.53s
+2024.08.22 00:03:05 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 00:03:06 INFO  time: Imported build in 0.14s
+2024.08.22 00:03:06 INFO  running doctor check
+2024.08.22 00:03:06 INFO  java targets: acp_scala-test, acp_scala, acp_scala-build
+ago. 22, 2024 12:03:07 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2024.08.22 00:03:11 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.22 00:03:13 INFO  time: indexed workspace in 6.54s
+2024.08.22 00:03:42 INFO  compiling acp_scala (1 scala source)
+2024.08.22 00:03:44 INFO  time: compiled acp_scala in 1.93s
+2024.08.22 00:04:07 INFO  compiling acp_scala (1 scala source)
+2024.08.22 00:04:08 INFO  time: compiled acp_scala in 1.13s
+2024.08.22 00:04:23 INFO  compiling acp_scala (1 scala source)
+2024.08.22 00:04:23 INFO  time: compiled acp_scala in 0.98s
+2024.08.22 00:07:31 INFO  compiling acp_scala (1 scala source)
+2024.08.22 00:07:32 INFO  time: compiled acp_scala in 1.04s
+2024.08.22 00:07:53 INFO  compiling acp_scala (1 scala source)
+2024.08.22 00:07:54 INFO  time: compiled acp_scala in 1.02s
+2024.08.22 00:14:35 INFO  Shutting down server
+2024.08.22 00:14:35 INFO  shutting down Metals
+2024.08.22 00:14:35 INFO  Shut down connection with build server.
+2024.08.22 00:14:35 INFO  Shut down connection with build server.
+2024.08.22 00:14:35 INFO  Exiting server
+2024.08.22 09:03:52 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\DELL\Documents\ACP_SCALA' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@64834f3b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@40d01b3f]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@64834f3b]
+2024.08.22 09:03:53 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.22 09:03:57 INFO  Attempting to connect to the build server...
+2024.08.22 09:03:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 09:03:57 INFO  Attempting to connect to the build server...
+2024.08.22 09:03:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 09:03:57 INFO  time: Connected to build server in 0.97s
+2024.08.22 09:03:57 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 09:03:58 INFO  time: Imported build in 0.21s
+2024.08.22 09:03:59 INFO  running doctor check
+2024.08.22 09:03:59 INFO  java targets: acp_scala-test, acp_scala, acp_scala-build
+2024.08.22 09:04:18 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.22 09:04:39 INFO  time: indexed workspace in 40s
+2024.08.22 09:04:46 INFO  compiling acp_scala (1 scala source)
+2024.08.22 09:04:50 INFO  time: compiled acp_scala in 4.23s
+2024.08.22 09:04:57 INFO  compiling acp_scala (1 scala source)
+2024.08.22 09:04:59 INFO  time: compiled acp_scala in 2.79s
+ago. 22, 2024 9:06:03 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 9:06:03 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 9:06:03 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 9:06:03 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.08.22 10:05:50 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-TbRkiiShQ2WWYe9PMKiWjA== does not exist
+2024.08.22 10:05:55 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-TbRkiiShQ2WWYe9PMKiWjA== does not exist
+2024.08.22 10:06:33 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-TbRkiiShQ2WWYe9PMKiWjA== does not exist
+2024.08.22 10:06:33 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-TbRkiiShQ2WWYe9PMKiWjA== does not exist
+2024.08.22 10:06:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 10:06:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 10:06:33 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 10:06:33 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 10:06:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 10:06:33 INFO  time: Imported build in 0.22s
+2024.08.22 10:06:33 INFO  running doctor check
+2024.08.22 10:06:33 INFO  java targets: 
+2024.08.22 10:06:33 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 10:06:38 INFO  time: indexed workspace in 4s
+2024.08.22 10:06:38 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 10:06:40 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 10:06:41 INFO  time: code lens generation in 7.02s
+2024.08.22 10:06:41 INFO  time: code lens generation in 2.48s
+2024.08.22 10:06:41 INFO  time: code lens generation in 2.97s
+2024.08.22 10:07:07 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 10:07:12 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\build.sbt
+2024.08.22 10:07:12 INFO  skipping build import with status 'Installed'
+2024.08.22 10:07:12 INFO  Disconnecting from Bloop session...
+2024.08.22 10:07:12 INFO  Shut down connection with build server.
+2024.08.22 10:07:12 INFO  Shut down connection with build server.
+2024.08.22 10:07:12 INFO  Attempting to connect to the build server...
+2024.08.22 10:07:12 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2024.08.22 10:07:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 10:07:12 INFO  Attempting to connect to the build server...
+2024.08.22 10:07:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 10:07:12 INFO  time: Connected to build server in 0.16s
+2024.08.22 10:07:12 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 10:07:12 INFO  running doctor check
+2024.08.22 10:07:12 INFO  java targets: acp_scala-test, acp_scala, acp_scala-build
+2024.08.22 10:07:18 INFO  time: indexed workspace in 5.93s
+2024.08.22 10:07:27 INFO  time: code lens generation in 8.94s
+ago. 22, 2024 10:12:21 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:12:21 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:12:21 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:12:21 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:10 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:10 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:10 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:10 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:12 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:12 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:12 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 10:19:12 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.08.22 10:27:25 INFO  compiling acp_scala (1 scala source)
+2024.08.22 10:27:28 INFO  time: compiled acp_scala in 3.33s
+2024.08.22 11:20:52 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-GASawaRCSSyeHQ1uBm3TFA== does not exist
+2024.08.22 11:35:20 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-GASawaRCSSyeHQ1uBm3TFA== does not exist
+2024.08.22 11:36:42 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-GASawaRCSSyeHQ1uBm3TFA== does not exist
+ago. 22, 2024 11:37:07 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 11:37:07 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 11:37:07 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ago. 22, 2024 11:37:07 A. M. scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+ADVERTENCIA: Error indexing C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+java.nio.file.NoSuchFileException: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\tempCodeRunnerFile.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:222)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:222)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.08.22 11:44:03 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-GASawaRCSSyeHQ1uBm3TFA== does not exist
+ago. 22, 2024 11:44:10 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2024.08.22 11:44:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 11:44:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 11:44:18 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 11:44:18 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 11:44:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 11:44:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DELL\Documents\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 11:44:18 INFO  compiling acp_scala (1 scala source)
+2024.08.22 11:44:19 WARN  Target root C:\Users\DELL\Documents\ACP_SCALA\.bloop\acp_scala\bloop-bsp-clients-classes\classes-Metals-GASawaRCSSyeHQ1uBm3TFA== does not exist
+2024.08.22 11:44:21 INFO  time: compiled acp_scala in 3s
+2024.08.22 11:44:21 INFO  time: Imported build in 3.21s
+2024.08.22 11:44:22 INFO  running doctor check
+2024.08.22 11:44:22 INFO  java targets: 
+2024.08.22 11:44:22 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:22 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:26 INFO  time: indexed workspace in 4.15s
+2024.08.22 11:44:26 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:44:26 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\build.sbt
+2024.08.22 11:44:34 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:34 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:42 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:52 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:52 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:52 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:53 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:53 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:53 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:54 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:53 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:53 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:55 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:56 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:58 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:44:58 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:00 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:03 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:45:14 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:17 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:40 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:40 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:41 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:50 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:50 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:50 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:45:51 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 11:46:01 A. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\DELL\Documents\ACP_SCALA\.metals\.reports\metals-full\2024-08-22\r_compiler-error_11-46-01-846.md
+2024.08.22 11:46:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:01 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:03 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:03 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:04 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:04 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:04 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:04 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:05 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:05 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:05 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:05 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:06 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:07 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:07 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:07 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 11:46:07 A. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\DELL\Documents\ACP_SCALA\.metals\.reports\metals-full\2024-08-22\r_compiler-error_11-46-07-827.md
+2024.08.22 11:46:07 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:07 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:08 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:08 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:08 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:08 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:08 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:09 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:10 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:10 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 11:46:10 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 895
+2024.08.22 11:46:10 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:11 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:10 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:11 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:11 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:11 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:11 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:11 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:13 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:13 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:13 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:13 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 11:46:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 916
+2024.08.22 11:46:13 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:14 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:14 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:15 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:15 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:15 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:16 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:16 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:15 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:16 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:15 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:16 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:16 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:17 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:17 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:17 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:16 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:17 WARN  no build target for: C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 11:46:20 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:25 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:26 INFO  no build target found for C:\Users\DELL\Documents\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 11:46:26 INFO  Shutting down server
+2024.08.22 11:46:26 INFO  shutting down Metals
+2024.08.22 11:46:27 INFO  Shut down connection with build server.
+2024.08.22 11:46:27 INFO  Shut down connection with build server.
+2024.08.22 11:46:27 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2024.08.22 11:46:27 INFO  Exiting server
