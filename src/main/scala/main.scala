@@ -46,5 +46,10 @@ object MainApp {
         standardizedMatrix(::, col) := standardizedCol
       }
       standardizedMatrix(*, ::).foreach(row => println(row.toArray.mkString(", ")))
+
+      //2. Realizar el cálculo de la matriz de correlaciones
+      println("\nMatriz Correlaciones: ")
+      val covarianceMatrix = cov(standardizedMatrix)
+      covarianceMatrix(*, ::).foreach(row => println(row.toArray.mkString(", ")))
     }
 }
