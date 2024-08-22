@@ -7,29 +7,44 @@ import breeze.stats._
 
 object MainApp {
     def readAndProcessCSV(filePath: String): Array[Array[Double]] = {
-        val parser = new CSVParserBuilder()
-          .withSeparator(';')
-          .build()
-        val reader = new CSVReaderBuilder(new FileReader(filePath))
-          .withCSVParser(parser)
-          .build()
-        try {
-          val allRows = reader.readAll().asScala.toList
-          val matrix = allRows.tail.map { row =>
-            row.tail.map { value =>
-              value.replace(',', '.').toDouble
-            }.toArray
+      val parser = new CSVParserBuilder()
+        .withSeparator(';')
+        .build()
+      val reader = new CSVReaderBuilder(new FileReader(filePath))
+        .withCSVParser(parser)
+        .build()
+      try {
+        val allRows = reader.readAll().asScala.toList
+        val matrix = allRows.tail.map { row =>
+          row.tail.map { value =>
+            value.replace(',', '.').toDouble
           }.toArray
-          matrix
-        } finally {
-          reader.close()
-        }
+        }.toArray
+        matrix
+      } finally {
+        reader.close()
+      }
     }
 
     def main(args: Array[String]): Unit = {
-        val filePath = System.getProperty("user.dir")+"/EjemploEstudiantes.csv"   
-        val matrix = readAndProcessCSV(filePath)
-        println("Matriz Original:")
-        matrix.foreach(row => println(row.mkString(", ")))
+      //Leer archivo csv
+      val filePath = System.getProperty("user.dir")+"/EjemploEstudiantes.csv"   
+      val matrix = readAndProcessCSV(filePath)
+      println("Matriz Original:")
+      matrix.foreach(row => println(row.mkString(", ")))
+
+      //1. Centrar y reducir la tabla original de datos X.
+      println("\nMatriz Estandarizada: ")
+      val breezeMatrix = DenseMatrix(matrix*)
+      val meanVector = mean(breezeMatrix(::, *))
+      val stddevVector = stddev(breezeMatrix(::, *))
+      val standardizedMatrix = DenseMatrix.zeros[Double](breezeMatrix.rows, breezeMatrix.cols)
+
+      for (col <- 0 until breezeMatrix.cols) {
+        val colData = breezeMatrix(::, col)
+        val standardizedCol = (colData - meanVector(col)) / stddevVector(col)
+        standardizedMatrix(::, col) := standardizedCol
+      }
+      standardizedMatrix(*, ::).foreach(row => println(row.toArray.mkString(", ")))
     }
 }
