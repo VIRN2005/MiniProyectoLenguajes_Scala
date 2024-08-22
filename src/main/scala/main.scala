@@ -4,7 +4,6 @@ import java.io.FileReader
 import scala.jdk.CollectionConverters._
 import breeze.linalg._
 import breeze.stats._
-//import breeze.plot._
 
 object MainApp {
   def readAndProcessCSV(filePath: String): Array[Array[Double]] = {
@@ -40,13 +39,13 @@ object MainApp {
   }
 
   def main(args: Array[String]): Unit = {
-    // Leer archivo csv
+    // Leer el archivo CSV
     val filePath = System.getProperty("user.dir") + "/EjemploEstudiantes.csv"
     val matrix = readAndProcessCSV(filePath)
     println(">> MATRIZ <<")
     printMatrix(DenseMatrix(matrix: _*))
 
-    // Paso 1: Centrar y reducir la tabla original de datos X.
+    // Paso 1: Centrar y reducir la matriz original de datos
     println("\n>> MATRIZ ESTANDARIZADA <<")
     val breezeMatrix = DenseMatrix(matrix: _*)
     val meanVector = mean(breezeMatrix(::, *))
@@ -60,13 +59,13 @@ object MainApp {
     }
     printMatrix(standardizedMatrix)
 
-    // Paso 2: Realizar el cálculo de la matriz de correlaciones
+    // Paso 2: Calcular la matriz de correlaciones
     println("\n>> MATRIZ DE CORRELACIONES <<")
-    val covarianceMatrix = cov(standardizedMatrix)
-    printMatrix(covarianceMatrix)
+    val correlationMatrix = cov(standardizedMatrix)
+    printMatrix(correlationMatrix)
 
-    // Paso 3: Calcular y ordenar (de mayor a menor) los vectores y valores propios de la Matriz
-    val eigResult = eig(covarianceMatrix)
+    // Paso 3: Calcular y ordenar los valores y vectores propios de la matriz de correlaciones
+    val eigResult = eig(correlationMatrix)
 
     val eigenvalues = eigResult.eigenvalues
     val eigenvectors = eigResult.eigenvectors
@@ -88,27 +87,27 @@ object MainApp {
     val principalComponents = standardizedMatrix * sortedEigenvectors
     printMatrix(principalComponents)
 
-    // Paso 6: Cálculo de la matriz de calidades de individuos
+    // Paso 6: Calcular la matriz de calidades de individuos
     println("\n>> MATRIZ DE CALIDADES DE INDIVIDUOS <<")
     val qualityIndividuals = DenseVector(principalComponents(*, ::).map(row => math.pow(norm(row), 2)).toArray)
     println(qualityIndividuals.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
-    // Paso 7: Cálculo de la matriz de coordenadas de las variables
+    // Paso 7: Calcular la matriz de coordenadas de las variables
     println("\n>> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
-    val variableCoordinates = eigenvectors.t * standardizedMatrix
+    val variableCoordinates = sortedEigenvectors.t * standardizedMatrix.t
     printMatrix(variableCoordinates)
 
-    // Paso 8: Cálculo de la matriz de calidades de las variables
+    // Paso 8: Calcular la matriz de calidades de las variables
     println("\n>> MATRIZ DE CALIDADES DE LAS VARIABLES <<")
     val qualityVariables = DenseVector(variableCoordinates(*, ::).map(col => math.pow(norm(col), 2)).toArray)
     println(qualityVariables.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
-    // Paso 9: Cálculo del vector de inercias de los ejes
+    // Paso 9: Calcular el vector de inercias de los ejes
     println("\n>> VECTOR DE INERCIAS DE LOS EJES <<")
     val inertiaVector = DenseVector(sortedEigenvalues.map(el => math.pow(el, 2)).toArray)
     println(inertiaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
-    // Paso 10-: Graficar (necesitarás una biblioteca de gráficos adecuada)
+    // Paso 10: Graficar
     //val f = Figure()
     //val p = f.subplot(0)
     //p += plot(inertiaVector.toArray, '+')
