@@ -4,12 +4,19 @@ import java.io.FileReader
 import scala.jdk.CollectionConverters._
 import breeze.linalg._
 import breeze.stats._
+import breeze.numerics._
+import java.awt.{Color, BasicStroke}
+import java.awt.geom.{Ellipse2D, Path2D}
 import org.jfree.chart._
 import org.jfree.chart.plot._
 import org.jfree.data.xy._
 import org.jfree.chart.annotations._
+import org.jfree.chart.plot.XYPlot
+import org.jfree.chart.axis._
 
 object MainApp {
+  var labels: Array[String] = Array()
+  var colName: Array[String] = Array()
   def readAndProcessCSV(filePath: String): Array[Array[Double]] = {
     val parser = new CSVParserBuilder()
       .withSeparator(';')
@@ -19,7 +26,10 @@ object MainApp {
       .build()
     try {
       val allRows = reader.readAll().asScala.toList
-      val matrix = allRows.tail.map { row =>
+      val dataRows = allRows.tail
+      colName = allRows.head.tail
+      labels = dataRows.map(row => row(0)).toArray
+      val matrix = dataRows.map { row =>
         row.tail.map { value =>
           value.replace(',', '.').toDouble
         }.toArray
@@ -42,9 +52,11 @@ object MainApp {
     }
   }
 
-  def graphicPlaneMain(pc1: Array[Double], pc2: Array[Double], labels: Array[String]): Unit = {
+  def graphicPlaneMain(x: Int, y: Int, principalComponents: DenseMatrix[Double]): Unit = {
+    val pc1 = principalComponents(::, x).toArray
+    val pc2 = principalComponents(::, y).toArray
     val dataset = new XYSeriesCollection()
-    val series = new XYSeries("Puntos")
+    val series = new XYSeries("Alumnos")
     for (i <- pc1.indices) {
       series.add(pc1(i), pc2(i))
     }
@@ -52,8 +64,8 @@ object MainApp {
 
     val chart = ChartFactory.createScatterPlot(
       "Análisis de componentes principales",
-      "Componente Principal 1",
-      "Componente Principal 2",
+      "Componente Principal "+x,
+      "Componente Principal "+y,
       dataset
     )
 
@@ -67,7 +79,59 @@ object MainApp {
     frame.pack()
     frame.setVisible(true)
   }
+
+  def graphicCorrelationCircle(correlations: DenseMatrix[Double], x: Int, y: Int): Unit = {
+    val dataset = new XYSeriesCollection()
+    val series = new XYSeries("Variables")
   
+    for (i <- 0 until correlations.rows) {
+      series.add(correlations(i, 0), correlations(i, 1))
+    }
+    dataset.addSeries(series)
+  
+    val chart = ChartFactory.createScatterPlot(
+      "Círculo de Correlación",
+      s"Componente Principal $x",
+      s"Componente Principal $y",
+      dataset
+    )
+  
+    val plot = chart.getXYPlot
+  
+    val xAxis = plot.getDomainAxis.asInstanceOf[NumberAxis]
+    val yAxis = plot.getRangeAxis.asInstanceOf[NumberAxis]
+    xAxis.setRange(-1.0, 1.0)
+    yAxis.setRange(-1.0, 1.0)
+  
+    plot.setDomainZeroBaselineVisible(true)
+    plot.setRangeZeroBaselineVisible(true)
+    plot.setDomainPannable(true)
+    plot.setRangePannable(true)
+    plot.setDomainGridlinePaint(Color.LIGHT_GRAY)
+    plot.setRangeGridlinePaint(Color.LIGHT_GRAY)
+  
+    val circleRadius = 1.0
+    val circleShape = new Ellipse2D.Double(-circleRadius, -circleRadius, 2 * circleRadius, 2 * circleRadius)
+    val circleAnnotation = new XYShapeAnnotation(circleShape,
+      new BasicStroke(1.0f), Color.BLACK
+    )
+    plot.addAnnotation(circleAnnotation)
+  
+    for (i <- 0 until correlations.rows) {
+      val startX = 0.0
+      val startY = 0.0
+      val endX = correlations(i, 0)
+      val endY = correlations(i, 1)
+      val line = new XYLineAnnotation(startX, startY, endX, endY, new BasicStroke(1.0f), Color.BLUE)
+      plot.addAnnotation(line)
+      val annotation = new XYTextAnnotation(colName(i), endX * 1.1, endY * 1.1)
+      plot.addAnnotation(annotation)
+    }
+  
+    val frame = new ChartFrame("Círculo de Correlación", chart)
+    frame.pack()
+    frame.setVisible(true)
+  }
   def main(args: Array[String]): Unit = {
     // Leer el archivo CSV
     val filePath = System.getProperty("user.dir") + "/EjemploEstudiantes.csv"
@@ -132,7 +196,17 @@ object MainApp {
 
     // Paso 7: Calcular la matriz de coordenadas de las variables (mxm) ---------------------------------------------------------------------
     println("\n7. >> MATRIZ DE COORDENADAS DE LAS VARIABLES <<")
-    val variableCoordinates = sortedEigenvectors.t * standardizedMatrix.t
+
+    val squaredEigenvectors = pow(sortedEigenvectors, 2.0)
+    val norms = sqrt(sum(squaredEigenvectors,  breeze.linalg.Axis._1))
+
+    val variableCoordinates = DenseMatrix.zeros[Double](sortedEigenvectors.rows, sortedEigenvectors.cols)
+    for (i <- 0 until sortedEigenvectors.rows) {
+      for (j <- 0 until sortedEigenvectors.cols) {
+        variableCoordinates(i, j) = sortedEigenvectors(i, j) * norms(i)
+      }
+    }
+
     printMatrix(variableCoordinates)
 
     // Paso 8: Calcular la matriz de calidades de las variables (mxm) -----------------------------------------------------------------------
@@ -149,9 +223,15 @@ object MainApp {
     println(inertiaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
     // Paso 10: Graficar
-    val labels = Array("P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10")
-    val pc1 = principalComponents(::, 0).toArray
-    val pc2 = principalComponents(::, 1).toArray
-    graphicPlaneMain(pc1, pc2, labels)
+    var x:Int = 0
+    var y:Int = 1
+    for(i <- 0 until 2){
+      if(i == 1){
+        x= 3
+        y = 4
+      }
+      graphicPlaneMain(x, y, principalComponents)
+      graphicCorrelationCircle(variableCoordinates(::, x until y + 1),x,y)
+    }
   }
 }
