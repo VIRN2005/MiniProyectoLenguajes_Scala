@@ -17,6 +17,7 @@
             "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
             "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar",
             "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar",
             "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
             "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
             "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar",
@@ -203,6 +204,7 @@
                 "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
                 "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar",
                 "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar",
                 "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
                 "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
                 "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar",
@@ -279,6 +281,23 @@
                             "name": "breeze_3",
                             "classifier": "sources",
                             "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jfree",
+                    "name": "jfreechart",
+                    "version": "1.5.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jfreechart",
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar"
+                        },
+                        {
+                            "name": "jfreechart",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3-sources.jar"
                         }
                     ]
                 },

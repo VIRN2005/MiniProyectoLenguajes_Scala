@@ -6,5 +6,6 @@ scalaVersion := "3.5.0"
 
 libraryDependencies ++= Seq(
   "com.opencsv" % "opencsv" % "5.6",
-  "org.scalanlp" %% "breeze" % "2.1.0"
+  "org.scalanlp" %% "breeze" % "2.1.0",
+  "org.jfree" % "jfreechart" % "1.5.3"
 )

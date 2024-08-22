@@ -4,6 +4,10 @@ import java.io.FileReader
 import scala.jdk.CollectionConverters._
 import breeze.linalg._
 import breeze.stats._
+import org.jfree.chart._
+import org.jfree.chart.plot._
+import org.jfree.data.xy._
+import org.jfree.chart.annotations._
 
 object MainApp {
   def readAndProcessCSV(filePath: String): Array[Array[Double]] = {
@@ -38,6 +42,32 @@ object MainApp {
     }
   }
 
+  def graphicPlaneMain(pc1: Array[Double], pc2: Array[Double], labels: Array[String]): Unit = {
+    val dataset = new XYSeriesCollection()
+    val series = new XYSeries("Puntos")
+    for (i <- pc1.indices) {
+      series.add(pc1(i), pc2(i))
+    }
+    dataset.addSeries(series)
+
+    val chart = ChartFactory.createScatterPlot(
+      "Análisis de componentes principales",
+      "Componente Principal 1",
+      "Componente Principal 2",
+      dataset
+    )
+
+    val plot = chart.getXYPlot
+    for (i <- pc1.indices) {
+      val annotation = new XYTextAnnotation(labels(i), pc1(i), pc2(i))
+      plot.addAnnotation(annotation)
+    }
+
+    val frame = new ChartFrame("Gráfico", chart)
+    frame.pack()
+    frame.setVisible(true)
+  }
+  
   def main(args: Array[String]): Unit = {
     // Leer el archivo CSV
     val filePath = System.getProperty("user.dir") + "/EjemploEstudiantes.csv"
@@ -46,7 +76,7 @@ object MainApp {
     printMatrix(DenseMatrix(matrix*))
 
     // Paso 1: Centrar y reducir la matriz original de datos
-    println("\n>> MATRIZ ESTANDARIZADA <<")
+    println("\n1. >> MATRIZ ESTANDARIZADA <<")
     val breezeMatrix = DenseMatrix(matrix*)
     val meanVector = mean(breezeMatrix(::, *))
     val stddevVector = stddev(breezeMatrix(::, *))
@@ -88,7 +118,7 @@ object MainApp {
     printMatrix(principalComponents)
 
     // Paso 6: Calcular la matriz de calidades de individuos
-    println("\n>> MATRIZ DE CALIDADES DE INDIVIDUOS <<")
+    println("\n6. >> MATRIZ DE CALIDADES DE INDIVIDUOS <<")
     val matrixComponentsSquared = principalComponents.map(x => x * x)
     val matrixStandardizedSquared = standardizedMatrix.map(x => x * x)
     val matrixQualityInvdividuals = DenseMatrix.zeros[Double](breezeMatrix.rows, breezeMatrix.cols)
@@ -111,7 +141,7 @@ object MainApp {
     println(qualityVariables.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
     // Paso 9: Calcular el vector de inercias de los ejes
-    println("\n>> VECTOR DE INERCIAS DE LOS EJES <<")
+    println("\n9. >> VECTOR DE INERCIAS DE LOS EJES <<")
     val inertiaVector = DenseVector.zeros[Double](breezeMatrix.cols)
     for(i <- 0 until breezeMatrix.cols){
       inertiaVector(i) = (100*sortedEigenvalues(i))/breezeMatrix.cols
@@ -119,11 +149,9 @@ object MainApp {
     println(inertiaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
     // Paso 10: Graficar
-    //val f = Figure()
-    //val p = f.subplot(0)
-    //p += plot(inertiaVector.toArray, '+')
-    //p.xlabel = "Ejes"
-    //p.ylabel = "Inercia"
-    //f.saveas("inercia_ejes.png")
+    val labels = Array("P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10")
+    val pc1 = principalComponents(::, 0).toArray
+    val pc2 = principalComponents(::, 1).toArray
+    graphicPlaneMain(pc1, pc2, labels)
   }
 }
