@@ -211,17 +211,21 @@ object MainApp {
 
     // Paso 8: Calcular la matriz de calidades de las variables (mxm) -----------------------------------------------------------------------
     println("\n8. >> MATRIZ DE CALIDADES DE LAS VARIABLES <<")
-    val qualityVariables = DenseVector(variableCoordinates(*, ::).map(col => math.pow(norm(col), 2)).toArray)
-    println(qualityVariables.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
+    val elementosAlCuadrado = pow(variableCoordinates, 2.0)
+    val calidadMatriz = sum(elementosAlCuadrado, breeze.linalg.Axis._1)
+    println(calidadMatriz.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
     // Paso 9: Calcular el vector de inercias de los ejes
     println("\n9. >> VECTOR DE INERCIAS DE LOS EJES <<")
-    val inertiaVector = DenseVector.zeros[Double](breezeMatrix.cols)
-    for(i <- 0 until breezeMatrix.cols){
-      inertiaVector(i) = (100*sortedEigenvalues(i))/breezeMatrix.cols
+    val m = sortedEigenvalues.length
+    val inerciaVector = DenseVector.zeros[Double](m)
+    for (i <- 0 until m) {
+      inerciaVector(i) = 100 * (sortedEigenvalues(i) / m)
     }
-    println(inertiaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
+    
+    println(inerciaVector.toArray.map(el => f"[$el%8.4f  ]").mkString(" "))
 
+  
     // Paso 10: Graficar
     var x:Int = 0
     var y:Int = 1

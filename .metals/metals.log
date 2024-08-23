@@ -3114,3 +3114,404 @@ ago. 22, 2024 3:51:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCance
 ADVERTENCIA: Unmatched cancel notification for request id 5398
 2024.08.22 15:51:52 INFO  compiling acp_scala (1 scala source)
 2024.08.22 15:51:52 INFO  time: compiled acp_scala in 0.94s
+2024.08.22 21:24:04 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@21870af9]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5bec0bd]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@21870af9]
+2024.08.22 21:24:11 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+ago. 22, 2024 9:24:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+2024.08.22 21:24:15 INFO  Attempting to connect to the build server...
+2024.08.22 21:24:15 INFO  Setting up current java home C:\Users\USUARIO\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35 in C:\Users\USUARIO\.bloop\bloop.json
+2024.08.22 21:24:36 ERROR Starting the bsp launcher for bloop...
+2024.08.22 21:24:36 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 16871'...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR Waiting for the bsp connection to come up...
+2024.08.22 21:24:36 ERROR error: The command bsp --protocol tcp --port 16871 returned with an error
+2024.08.22 21:24:36 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2024.08.22 21:24:36 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.6.0...
+2024.08.22 21:24:36 ERROR > Starting bloop server at 127.0.0.1:8212...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > Attempting a connection to the server...
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.5.0\scala3-library_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.14\scala-library-2.13.14.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.5.0\scala3-compiler_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.5.0\scala3-interfaces-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.5.0\tasty-core_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.6.0-scala-1\scala-asm-9.6.0-scala-1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.9.6\compiler-interface-1.9.6.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.25.1\jline-reader-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.25.1\jline-terminal-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.25.1\jline-terminal-jna-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.9.8\util-interface-1.9.8.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.25.1\jline-native-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scaladoc_3\3.5.0\scaladoc_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-tasty-inspector_3\3.5.0\scala3-tasty-inspector_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\nl\big-o\liqp\0.8.2\liqp-0.8.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.1\jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jetbrains\annotations\15.0\annotations-15.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.7.2\antlr4-runtime-4.7.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.15.1\jackson-annotations-2.15.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.15.1\jackson-core-2.15.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.15.1\jackson-databind-2.15.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ua\co\k\strftime4j\1.0.5\strftime4j-1.0.5.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.5.0\scala3-library_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.14\scala-library-2.13.14.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.5.0\scala3-compiler_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.5.0\scala3-interfaces-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.5.0\tasty-core_3-3.5.0.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.6.0-scala-1\scala-asm-9.6.0-scala-1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.9.6\compiler-interface-1.9.6.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.25.1\jline-reader-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.25.1\jline-terminal-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.25.1\jline-terminal-jna-3.25.1.jar doesn't exist!
+2024.08.22 21:24:36 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\.bloop\acp_scala.json
+2024.08.22 21:24:36 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2024.08.22 21:24:36 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:385)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.22 21:24:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:24:47 INFO  time: code lens generation in 11s
+2024.08.22 21:24:57 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 9:24:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 7
+2024.08.22 21:24:57 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:24:57 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:24:58 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:24:58 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:24:58 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:24:59 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 9:30:40 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 45
+2024.08.22 21:30:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 9:30:40 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 46
+2024.08.22 21:30:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:41 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:45 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:45 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:45 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:45 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:50 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:30:51 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:01 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:01 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:03 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:04 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:04 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:03 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:04 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:04 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:07 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:21 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:23 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:23 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:23 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:23 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:23 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:23 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:25 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:25 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:30 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:30 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:30 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:30 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:31 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:32 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:32 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:32 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:32 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:37 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:37 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:37 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:38 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:38 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:38 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:38 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:39 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:39 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:39 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:39 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:39 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:41 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:41 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:41 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:41 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:41 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:43 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:43 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:44 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:44 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:44 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:44 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:44 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:47 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:47 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:48 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:49 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:50 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:50 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:50 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:51 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:51 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:31:52 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:03 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:07 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:07 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:07 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:07 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:08 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:08 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:08 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:09 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:09 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:10 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:10 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:20 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:20 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:21 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:21 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:21 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:21 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:27 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:29 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:29 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:29 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:29 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:30 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:30 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:31 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:33 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:35 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:32:36 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:17 WARN  no build target for: C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 21:33:17 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:18 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:18 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 9:33:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 359
+2024.08.22 21:33:19 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:22 WARN  no build target for: C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 21:33:22 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:24 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:25 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:31 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:40 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+ago. 22, 2024 9:33:41 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 376
+2024.08.22 21:33:43 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:33:43 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:36:03 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:37:57 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:39:16 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:39:16 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:39:16 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:39:16 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:39:46 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:41:11 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:41:12 INFO  no build target found for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.22 21:41:16 ERROR SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2024.08.22 21:41:16 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2024.08.22 21:41:16 ERROR SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024.08.22 21:41:25 INFO  
+2024.08.22 21:41:25 INFO  Template applied in C:\Users\USUARIO\Documents\Classes\Lenguajes\.\hello-world
+2024.08.22 21:41:25 INFO  
+2024.08.22 21:41:25 INFO  time: ran 'giter8.Giter8' in 10s
+2024.08.22 21:44:33 INFO  running 'C:\Users\USUARIO\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\USUARIO\AppData\Local\Temp\metals8097671308407977330\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.08.22 21:44:34 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.9  (this may take some time)...
+2024.08.22 21:45:08 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2024.08.22 21:45:18 INFO  [info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 17)
+2024.08.22 21:45:22 INFO  [info] loading settings for project acp_scala-build-build from metals.sbt ...
+2024.08.22 21:45:23 INFO  [info] loading project definition from C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\project\project
+2024.08.22 21:45:27 INFO  [info] loading settings for project acp_scala-build from metals.sbt ...
+2024.08.22 21:45:27 INFO  [info] loading project definition from C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\project
+2024.08.22 21:45:30 INFO  [warn] sbt-bloop_2.12_1.0-1.6.0-sources.jar no longer exists at C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\1.6.0\sbt-bloop_2.12_1.0-1.6.0-sources.jar
+2024.08.22 21:45:34 INFO  [success] Generated .bloop\acp_scala-build.json
+2024.08.22 21:45:34 INFO  [success] Total time: 7 s, completed 22 ago. 2024 21:45:34
+2024.08.22 21:45:36 INFO  [info] loading settings for project acp_scala from build.sbt ...
+2024.08.22 21:45:36 INFO  [info] set current project to ACP_SCALA (in build file:/C:/Users/USUARIO/Documents/Classes/Lenguajes/ACP_SCALA/)
+2024.08.22 21:45:49 INFO  [warn] scala3-library_3-3.5.0-sources.jar no longer exists at C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.5.0\scala3-library_3-3.5.0-sources.jar
+2024.08.22 21:45:54 INFO  [success] Generated .bloop\acp_scala.json
+2024.08.22 21:45:54 INFO  [success] Generated .bloop\acp_scala-test.json
+2024.08.22 21:45:54 INFO  [success] Total time: 17 s, completed 22 ago. 2024 21:45:54
+2024.08.22 21:45:54 INFO  time: ran 'sbt bloopInstall' in 1m20s
+2024.08.22 21:45:54 INFO  Attempting to connect to the build server...
+2024.08.22 21:45:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\.metals\bsp.trace.json or C:\Users\USUARIO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 21:45:54 INFO  Attempting to connect to the build server...
+2024.08.22 21:45:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\project\.metals\bsp.trace.json or C:\Users\USUARIO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.22 21:45:57 INFO  time: Connected to build server in 2.96s
+2024.08.22 21:45:57 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.22 21:45:57 INFO  time: Imported build in 0.13s
+2024.08.22 21:45:57 INFO  running doctor check
+2024.08.22 21:45:57 INFO  java targets: acp_scala-build, acp_scala-test, acp_scala
+2024.08.22 21:46:07 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.22 21:46:27 INFO  time: indexed workspace in 30s
+2024.08.22 21:46:44 INFO  compiling acp_scala (1 scala source)
+2024.08.22 21:46:59 INFO  time: compiled acp_scala in 15s
+2024.08.22 21:55:01 INFO  compiling acp_scala (1 scala source)
+2024.08.22 21:55:05 INFO  time: compiled acp_scala in 4.72s
+2024.08.22 21:56:35 INFO  compiling acp_scala (1 scala source)
+2024.08.22 21:56:41 INFO  time: compiled acp_scala in 6.31s
+2024.08.22 21:56:57 INFO  compiling acp_scala (1 scala source)
+2024.08.22 21:57:01 INFO  time: compiled acp_scala in 4.18s
+2024.08.22 22:02:32 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:02:34 INFO  time: compiled acp_scala in 2.17s
+2024.08.22 22:03:44 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:03:48 INFO  time: compiled acp_scala in 3.65s
+2024.08.22 22:08:04 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:08:08 INFO  time: compiled acp_scala in 3.88s
+2024.08.22 22:09:34 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:09:37 WARN  Could not load snapshot text for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 22:09:37 WARN  Could not load snapshot text for C:\Users\USUARIO\Documents\Classes\Lenguajes\ACP_SCALA\src\main\scala\main.scala
+2024.08.22 22:09:38 INFO  time: compiled acp_scala in 3.63s
+2024.08.22 22:10:21 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:10:24 INFO  time: compiled acp_scala in 3.04s
+ago. 22, 2024 10:10:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1137
+ago. 22, 2024 10:10:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1140
+2024.08.22 22:10:49 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:10:51 INFO  time: compiled acp_scala in 2.48s
+ago. 22, 2024 10:15:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1178
+2024.08.22 22:16:00 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:16:02 INFO  time: compiled acp_scala in 1.99s
+2024.08.22 22:18:47 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:18:50 INFO  time: compiled acp_scala in 2.79s
+2024.08.22 22:18:58 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:19:00 INFO  time: compiled acp_scala in 2.09s
+ago. 22, 2024 10:24:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1552
+2024.08.22 22:25:36 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:25:38 INFO  time: compiled acp_scala in 1.77s
+2024.08.22 22:26:28 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:26:30 INFO  time: compiled acp_scala in 2.43s
+ago. 22, 2024 10:33:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1950
+ago. 22, 2024 10:36:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2266
+2024.08.22 22:36:55 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:36:57 INFO  time: compiled acp_scala in 2.67s
+2024.08.22 22:38:57 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:38:59 INFO  time: compiled acp_scala in 2.33s
+2024.08.22 22:42:05 INFO  compiling acp_scala (1 scala source)
+2024.08.22 22:42:09 INFO  time: compiled acp_scala in 4.41s
+2024.08.22 22:43:13 INFO  Shutting down server
+2024.08.22 22:43:13 INFO  shutting down Metals
+2024.08.22 22:43:13 INFO  Shut down connection with build server.
+2024.08.22 22:43:13 INFO  Shut down connection with build server.
+2024.08.22 22:43:13 INFO  Exiting server
