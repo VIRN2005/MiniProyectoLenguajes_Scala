@@ -2,52 +2,52 @@
     "version": "1.4.0",
     "project": {
         "name": "acp_scala",
-        "directory": "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA",
-        "workspaceDir": "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA",
+        "directory": "C:\\Users\\DELL\\Documents\\ACP_SCALA",
+        "workspaceDir": "C:\\Users\\DELL\\Documents\\ACP_SCALA",
         "sources": [
-            "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\src\\main\\scala",
-            "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\src\\main\\scala-3",
-            "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\src\\main\\java",
-            "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\target\\scala-3.5.0\\src_managed\\main"
+            "C:\\Users\\DELL\\Documents\\ACP_SCALA\\src\\main\\scala",
+            "C:\\Users\\DELL\\Documents\\ACP_SCALA\\src\\main\\scala-3",
+            "C:\\Users\\DELL\\Documents\\ACP_SCALA\\src\\main\\java",
+            "C:\\Users\\DELL\\Documents\\ACP_SCALA\\target\\scala-3.5.0\\src_managed\\main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sourceforge\\f2j\\arpack_combined_all\\0.1\\arpack_combined_all-0.1.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0.jar",
-            "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0.jar"
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sourceforge\\f2j\\arpack_combined_all\\0.1\\arpack_combined_all-0.1.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0.jar",
+            "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0.jar"
         ],
-        "out": "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\.bloop\\acp_scala",
-        "classesDir": "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\.bloop\\acp_scala\\scala-3\\classes",
+        "out": "C:\\Users\\DELL\\Documents\\ACP_SCALA\\.bloop\\acp_scala",
+        "classesDir": "C:\\Users\\DELL\\Documents\\ACP_SCALA\\.bloop\\acp_scala\\scala-3\\classes",
         "resources": [
-            "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\src\\main\\resources",
-            "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\target\\scala-3.5.0\\resource_managed\\main"
+            "C:\\Users\\DELL\\Documents\\ACP_SCALA\\src\\main\\resources",
+            "C:\\Users\\DELL\\Documents\\ACP_SCALA\\target\\scala-3.5.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -57,57 +57,57 @@
                 
             ],
             "jars": [
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-compiler_3\\3.5.0\\scala3-compiler_3-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-interfaces\\3.5.0\\scala3-interfaces-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\tasty-core_3\\3.5.0\\tasty-core_3-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-asm\\9.6.0-scala-1\\scala-asm-9.6.0-scala-1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-interface\\1.9.6\\compiler-interface-1.9.6.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-reader\\3.25.1\\jline-reader-3.25.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal\\3.25.1\\jline-terminal-3.25.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jna\\3.25.1\\jline-terminal-jna-3.25.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-interface\\1.9.8\\util-interface-1.9.8.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-native\\3.25.1\\jline-native-3.25.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.14.0\\jna-5.14.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scaladoc_3\\3.5.0\\scaladoc_3-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-tasty-inspector_3\\3.5.0\\scala3-tasty-inspector_3-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark\\0.62.2\\flexmark-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-ast\\0.62.2\\flexmark-util-ast-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-data\\0.62.2\\flexmark-util-data-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-html\\0.62.2\\flexmark-util-html-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-anchorlink\\0.62.2\\flexmark-ext-anchorlink-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-autolink\\0.62.2\\flexmark-ext-autolink-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-emoji\\0.62.2\\flexmark-ext-emoji-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-gfm-strikethrough\\0.62.2\\flexmark-ext-gfm-strikethrough-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-gfm-tasklist\\0.62.2\\flexmark-ext-gfm-tasklist-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-wikilink\\0.62.2\\flexmark-ext-wikilink-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-tables\\0.62.2\\flexmark-ext-tables-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-yaml-front-matter\\0.62.2\\flexmark-ext-yaml-front-matter-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\nl\\big-o\\liqp\\0.8.2\\liqp-0.8.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jsoup\\jsoup\\1.17.2\\jsoup-1.17.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-yaml\\2.15.1\\jackson-dataformat-yaml-2.15.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-builder\\0.62.2\\flexmark-util-builder-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-collection\\0.62.2\\flexmark-util-collection-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-dependency\\0.62.2\\flexmark-util-dependency-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-format\\0.62.2\\flexmark-util-format-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-misc\\0.62.2\\flexmark-util-misc-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-sequence\\0.62.2\\flexmark-util-sequence-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-visitor\\0.62.2\\flexmark-util-visitor-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jetbrains\\annotations\\15.0\\annotations-15.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util\\0.62.2\\flexmark-util-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nibor\\autolink\\autolink\\0.6.0\\autolink-0.6.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-jira-converter\\0.62.2\\flexmark-jira-converter-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\antlr4-runtime\\4.7.2\\antlr4-runtime-4.7.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.15.1\\jackson-annotations-2.15.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.15.1\\jackson-core-2.15.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.15.1\\jackson-databind-2.15.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.12.1\\jackson-datatype-jsr310-2.12.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ua\\co\\k\\strftime4j\\1.0.5\\strftime4j-1.0.5.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\yaml\\snakeyaml\\2.0\\snakeyaml-2.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-options\\0.62.2\\flexmark-util-options-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-ins\\0.62.2\\flexmark-ext-ins-0.62.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-superscript\\0.62.2\\flexmark-ext-superscript-0.62.2.jar"
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-compiler_3\\3.5.0\\scala3-compiler_3-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-interfaces\\3.5.0\\scala3-interfaces-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\tasty-core_3\\3.5.0\\tasty-core_3-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-asm\\9.6.0-scala-1\\scala-asm-9.6.0-scala-1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-interface\\1.9.6\\compiler-interface-1.9.6.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-reader\\3.25.1\\jline-reader-3.25.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal\\3.25.1\\jline-terminal-3.25.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jna\\3.25.1\\jline-terminal-jna-3.25.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-interface\\1.9.8\\util-interface-1.9.8.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-native\\3.25.1\\jline-native-3.25.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.14.0\\jna-5.14.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scaladoc_3\\3.5.0\\scaladoc_3-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-tasty-inspector_3\\3.5.0\\scala3-tasty-inspector_3-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark\\0.62.2\\flexmark-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-ast\\0.62.2\\flexmark-util-ast-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-data\\0.62.2\\flexmark-util-data-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-html\\0.62.2\\flexmark-util-html-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-anchorlink\\0.62.2\\flexmark-ext-anchorlink-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-autolink\\0.62.2\\flexmark-ext-autolink-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-emoji\\0.62.2\\flexmark-ext-emoji-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-gfm-strikethrough\\0.62.2\\flexmark-ext-gfm-strikethrough-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-gfm-tasklist\\0.62.2\\flexmark-ext-gfm-tasklist-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-wikilink\\0.62.2\\flexmark-ext-wikilink-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-tables\\0.62.2\\flexmark-ext-tables-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-yaml-front-matter\\0.62.2\\flexmark-ext-yaml-front-matter-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\nl\\big-o\\liqp\\0.8.2\\liqp-0.8.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jsoup\\jsoup\\1.17.2\\jsoup-1.17.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-yaml\\2.15.1\\jackson-dataformat-yaml-2.15.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-builder\\0.62.2\\flexmark-util-builder-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-collection\\0.62.2\\flexmark-util-collection-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-dependency\\0.62.2\\flexmark-util-dependency-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-format\\0.62.2\\flexmark-util-format-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-misc\\0.62.2\\flexmark-util-misc-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-sequence\\0.62.2\\flexmark-util-sequence-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-visitor\\0.62.2\\flexmark-util-visitor-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jetbrains\\annotations\\15.0\\annotations-15.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util\\0.62.2\\flexmark-util-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\nibor\\autolink\\autolink\\0.6.0\\autolink-0.6.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-jira-converter\\0.62.2\\flexmark-jira-converter-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\antlr4-runtime\\4.7.2\\antlr4-runtime-4.7.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.15.1\\jackson-annotations-2.15.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.15.1\\jackson-core-2.15.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.15.1\\jackson-databind-2.15.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.12.1\\jackson-datatype-jsr310-2.12.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ua\\co\\k\\strftime4j\\1.0.5\\strftime4j-1.0.5.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\yaml\\snakeyaml\\2.0\\snakeyaml-2.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-util-options\\0.62.2\\flexmark-util-options-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-ins\\0.62.2\\flexmark-ext-ins-0.62.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\vladsch\\flexmark\\flexmark-ext-superscript\\0.62.2\\flexmark-ext-superscript-0.62.2.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -185,50 +185,50 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\adoptium\\temurin17-binaries\\releases\\download\\jdk-17%252B35\\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\\jdk-17+35",
+                "home": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\adoptium\\temurin17-binaries\\releases\\download\\jdk-17%252B35\\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\\jdk-17+35",
                 "options": [
-                    "-Duser.dir=C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA"
+                    "-Duser.dir=C:\\Users\\DELL\\Documents\\ACP_SCALA"
                 ]
             },
             "mainClass": [
                 
             ],
             "runtimeConfig": {
-                "home": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\adoptium\\temurin17-binaries\\releases\\download\\jdk-17%252B35\\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\\jdk-17+35",
+                "home": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\adoptium\\temurin17-binaries\\releases\\download\\jdk-17%252B35\\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\\jdk-17+35",
                 "options": [
-                    "-Duser.dir=C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA"
+                    "-Duser.dir=C:\\Users\\DELL\\Documents\\ACP_SCALA"
                 ]
             },
             "classpath": [
-                "C:\\Users\\USUARIO\\Documents\\Classes\\Lenguajes\\ACP_SCALA\\.bloop\\acp_scala\\scala-3\\classes",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sourceforge\\f2j\\arpack_combined_all\\0.1\\arpack_combined_all-0.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0.jar",
-                "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0.jar"
+                "C:\\Users\\DELL\\Documents\\ACP_SCALA\\.bloop\\acp_scala\\scala-3\\classes",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sourceforge\\f2j\\arpack_combined_all\\0.1\\arpack_combined_all-0.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0.jar",
+                "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0.jar"
             ]
         },
         "resolution": {
@@ -241,12 +241,12 @@
                     "artifacts": [
                         {
                             "name": "scala3-library_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0.jar"
                         },
                         {
                             "name": "scala3-library_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.5.0\\scala3-library_3-3.5.0-sources.jar"
                         }
                     ]
                 },
@@ -258,12 +258,12 @@
                     "artifacts": [
                         {
                             "name": "opencsv",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6.jar"
                         },
                         {
                             "name": "opencsv",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\opencsv\\opencsv\\5.6\\opencsv-5.6-sources.jar"
                         }
                     ]
                 },
@@ -275,12 +275,12 @@
                     "artifacts": [
                         {
                             "name": "breeze_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0.jar"
                         },
                         {
                             "name": "breeze_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze_3\\2.1.0\\breeze_3-2.1.0-sources.jar"
                         }
                     ]
                 },
@@ -292,12 +292,12 @@
                     "artifacts": [
                         {
                             "name": "jfreechart",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3.jar"
                         },
                         {
                             "name": "jfreechart",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jfree\\jfreechart\\1.5.3\\jfreechart-1.5.3-sources.jar"
                         }
                     ]
                 },
@@ -309,12 +309,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14-sources.jar"
                         }
                     ]
                 },
@@ -326,12 +326,12 @@
                     "artifacts": [
                         {
                             "name": "commons-lang3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar"
                         },
                         {
                             "name": "commons-lang3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0-sources.jar"
                         }
                     ]
                 },
@@ -343,12 +343,12 @@
                     "artifacts": [
                         {
                             "name": "commons-text",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9.jar"
                         },
                         {
                             "name": "commons-text",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.9\\commons-text-1.9-sources.jar"
                         }
                     ]
                 },
@@ -360,12 +360,12 @@
                     "artifacts": [
                         {
                             "name": "commons-beanutils",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4.jar"
                         },
                         {
                             "name": "commons-beanutils",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-beanutils\\commons-beanutils\\1.9.4\\commons-beanutils-1.9.4-sources.jar"
                         }
                     ]
                 },
@@ -377,12 +377,12 @@
                     "artifacts": [
                         {
                             "name": "commons-collections4",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar"
                         },
                         {
                             "name": "commons-collections4",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4-sources.jar"
                         }
                     ]
                 },
@@ -394,12 +394,12 @@
                     "artifacts": [
                         {
                             "name": "breeze-macros_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0.jar"
                         },
                         {
                             "name": "breeze-macros_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalanlp\\breeze-macros_3\\2.1.0\\breeze-macros_3-2.1.0-sources.jar"
                         }
                     ]
                 },
@@ -411,12 +411,12 @@
                     "artifacts": [
                         {
                             "name": "blas",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1.jar"
                         },
                         {
                             "name": "blas",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\blas\\3.0.1\\blas-3.0.1-sources.jar"
                         }
                     ]
                 },
@@ -428,12 +428,12 @@
                     "artifacts": [
                         {
                             "name": "lapack",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1.jar"
                         },
                         {
                             "name": "lapack",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\lapack\\3.0.1\\lapack-3.0.1-sources.jar"
                         }
                     ]
                 },
@@ -445,12 +445,12 @@
                     "artifacts": [
                         {
                             "name": "arpack",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1.jar"
                         },
                         {
                             "name": "arpack",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\ludovic\\netlib\\arpack\\3.0.1\\arpack-3.0.1-sources.jar"
                         }
                     ]
                 },
@@ -462,7 +462,7 @@
                     "artifacts": [
                         {
                             "name": "arpack_combined_all",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sourceforge\\f2j\\arpack_combined_all\\0.1\\arpack_combined_all-0.1.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sourceforge\\f2j\\arpack_combined_all\\0.1\\arpack_combined_all-0.1.jar"
                         }
                     ]
                 },
@@ -474,12 +474,12 @@
                     "artifacts": [
                         {
                             "name": "opencsv",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3.jar"
                         },
                         {
                             "name": "opencsv",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\opencsv\\opencsv\\2.3\\opencsv-2.3-sources.jar"
                         }
                     ]
                 },
@@ -491,12 +491,12 @@
                     "artifacts": [
                         {
                             "name": "JTransforms",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1.jar"
                         },
                         {
                             "name": "JTransforms",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\wendykierp\\JTransforms\\3.1\\JTransforms-3.1-sources.jar"
                         }
                     ]
                 },
@@ -508,12 +508,12 @@
                     "artifacts": [
                         {
                             "name": "commons-math3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5.jar"
                         },
                         {
                             "name": "commons-math3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.5\\commons-math3-3.5-sources.jar"
                         }
                     ]
                 },
@@ -525,12 +525,12 @@
                     "artifacts": [
                         {
                             "name": "slf4j-api",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5.jar"
                         },
                         {
                             "name": "slf4j-api",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.5\\slf4j-api-1.7.5-sources.jar"
                         }
                     ]
                 },
@@ -542,12 +542,12 @@
                     "artifacts": [
                         {
                             "name": "scala-collection-compat_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0.jar"
                         },
                         {
                             "name": "scala-collection-compat_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_3\\2.7.0\\scala-collection-compat_3-2.7.0-sources.jar"
                         }
                     ]
                 },
@@ -559,12 +559,12 @@
                     "artifacts": [
                         {
                             "name": "spire_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0.jar"
                         },
                         {
                             "name": "spire_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire_3\\0.18.0\\spire_3-0.18.0-sources.jar"
                         }
                     ]
                 },
@@ -576,12 +576,12 @@
                     "artifacts": [
                         {
                             "name": "commons-logging",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar"
                         },
                         {
                             "name": "commons-logging",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2-sources.jar"
                         }
                     ]
                 },
@@ -593,12 +593,12 @@
                     "artifacts": [
                         {
                             "name": "commons-collections",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar"
                         },
                         {
                             "name": "commons-collections",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2-sources.jar"
                         }
                     ]
                 },
@@ -610,12 +610,12 @@
                     "artifacts": [
                         {
                             "name": "JLargeArrays",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5.jar"
                         },
                         {
                             "name": "JLargeArrays",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\pl\\edu\\icm\\JLargeArrays\\1.5\\JLargeArrays-1.5-sources.jar"
                         }
                     ]
                 },
@@ -627,12 +627,12 @@
                     "artifacts": [
                         {
                             "name": "spire-macros_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0.jar"
                         },
                         {
                             "name": "spire-macros_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-macros_3\\0.18.0\\spire-macros_3-0.18.0-sources.jar"
                         }
                     ]
                 },
@@ -644,12 +644,12 @@
                     "artifacts": [
                         {
                             "name": "spire-platform_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0.jar"
                         },
                         {
                             "name": "spire-platform_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-platform_3\\0.18.0\\spire-platform_3-0.18.0-sources.jar"
                         }
                     ]
                 },
@@ -661,12 +661,12 @@
                     "artifacts": [
                         {
                             "name": "spire-util_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0.jar"
                         },
                         {
                             "name": "spire-util_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\spire-util_3\\0.18.0\\spire-util_3-0.18.0-sources.jar"
                         }
                     ]
                 },
@@ -678,12 +678,12 @@
                     "artifacts": [
                         {
                             "name": "algebra_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0.jar"
                         },
                         {
                             "name": "algebra_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\algebra_3\\2.8.0\\algebra_3-2.8.0-sources.jar"
                         }
                     ]
                 },
@@ -695,12 +695,12 @@
                     "artifacts": [
                         {
                             "name": "cats-kernel_3",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0.jar"
                         },
                         {
                             "name": "cats-kernel_3",
                             "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0-sources.jar"
+                            "path": "C:\\Users\\DELL\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_3\\2.8.0\\cats-kernel_3-2.8.0-sources.jar"
                         }
                     ]
                 }

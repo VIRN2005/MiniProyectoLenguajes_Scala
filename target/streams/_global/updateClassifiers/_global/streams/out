@@ -1,4 +1,4 @@
-[warn] scala3-library_3-3.5.0-sources.jar no longer exists at C:\Users\DELL\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.5.0\scala3-library_3-3.5.0-sources.jar
+[warn] scala3-library_3-3.5.0-sources.jar no longer exists at C:\Users\USUARIO\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.5.0\scala3-library_3-3.5.0-sources.jar
 [debug] not up to date. inChanged = false, force = false
-[debug] Updating ProjectRef(uri("file:/C:/Users/USUARIO/Documents/Classes/Lenguajes/ACP_SCALA/"), "acp_scala")...
-[debug] Done updating ProjectRef(uri("file:/C:/Users/USUARIO/Documents/Classes/Lenguajes/ACP_SCALA/"), "acp_scala")
+[debug] Updating ProjectRef(uri("file:/C:/Users/DELL/Documents/ACP_SCALA/"), "acp_scala")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/DELL/Documents/ACP_SCALA/"), "acp_scala")
